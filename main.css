@@ -60,9 +60,8 @@ form {
 
 .submit-button {
   margin-top: 4rem;
-  justify-content: center;
+  /* justify-content: center; */
   align-content: center;
-  padding-left: 2rem;
   height: 3rem;
   background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
   border-radius: 10rem;
@@ -75,7 +74,7 @@ form {
 .icon {
   font-size: 1.5rem;
   color: #1379C1;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 .model {
