@@ -74,7 +74,6 @@ form {
 .icon {
   font-size: 1.5rem;
   color: #1379C1;
-  /* padding-left: 1rem; */
 }
 
 .model {
@@ -164,6 +163,39 @@ form {
 
   .footer-icon {
     height: 15%;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+  body {
+    font-size: 5px;
+  } 
+  .headline {
+    font-size: 7rem;
+  
+  }
+  .sub-head {
+      font-size: 4rem;
+  }
+  .sub-text {
+    font-size: 2.5rem;
+    width: 50rem;
+  }
+  form {
+    padding-top: 0;
+  }
+  .email {
+    margin-top: 0;
+    width: 45rem;
+  }
+  .submit-button {
+    margin-top: 2rem;
+  }
+  .model {
+    top: 4.7rem;
+    width: 28rem;
   }
 }
 
