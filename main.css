@@ -140,6 +140,7 @@ form {
   .headline {
     font-size: 6rem;
     margin-bottom: 1rem;
+    line-height: 1;
   }
   
   .sub-head {
@@ -158,8 +159,8 @@ form {
 
   .model {
     width: 13rem;
-    left: 15rem;
-    top: 10rem;
+    left: 16rem;
+    top: 12rem;
   }
 
   .footer-icon {
@@ -174,18 +175,17 @@ form {
     font-size: 5px;
   } 
   .headline {
-    font-size: 7rem;
-  
+    font-size: 6rem;
   }
   .sub-head {
-      font-size: 4rem;
+    font-size: 4rem;
   }
   .sub-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 50rem;
   }
   form {
-    padding-top: 0;
+    padding-top: 1rem;
   }
   .email {
     margin-top: 0;
@@ -195,7 +195,8 @@ form {
     margin-top: 2rem;
   }
   .model {
-    top: 4.7rem;
+    height: 45rem;
+    top: 8rem;
     width: 28rem;
   }
 }
