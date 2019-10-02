@@ -26,25 +26,26 @@ body {
 }
 
 .headline {
-  font-size: 8rem;
+  font-size: 7rem;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom:  1rem;
 }
 
 .sub-head {
-  font-size: 5rem;
+  font-size: 4rem;
   color: white;
   margin-bottom: 2rem;
 }
 
 .sub-text {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   width: 55rem;
+  line-height: 1;
 }
 
 form {
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 .email {
@@ -78,7 +79,7 @@ form {
 
 .model {
   position: absolute;
-  top: 9rem;
+  top: 5rem;
   right: 4rem;
 }
 
