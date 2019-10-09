@@ -45,7 +45,7 @@
 
 
   <!-- Footer start -->
-  <div class="site-footer">
+  <!-- <div class="site-footer">
     <p class="footer-heading">Get. <span class="bold-text">Shit.</span> Done.</p>
     <div class="d-flex flex-row justify-content-around footer-content">
       <div class="">
@@ -69,7 +69,7 @@
       </div>
     </div>
     <p class="footer-copywrite">2019 © All Rights Reserved | Fight School Incorporated</p>
-  </div>
+  </div> -->
   <!-- Footer end -->
 
 
@@ -94,9 +94,8 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      // document.getElementById("days").innerHTML = days + "d " + hours + "h "
-      //   + minutes + "m " + seconds + "s ";
-      document.getElementById("days").innerHTML = days;
+      document.getElementById("days").innerHTML = days + "d " + hours + "h "
+        + minutes + "m ";
 
       // If the count down is finished, write some text
       if (distance < 0) {
