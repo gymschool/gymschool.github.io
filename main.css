@@ -11,18 +11,14 @@ body {
   font-weight: 900;
 }
 
-.logo-container {
-  text-align: center;
-}
-
 .logo {
-  height: 8rem;
-  width: 10rem;
+  height: 25rem;
+  width: 35rem;
+  margin-left: 9rem;
 }
 
 .landing-content {
   padding-left: 9rem;
-  padding-bottom: 4rem;
 }
 
 .headline {
@@ -41,12 +37,8 @@ body {
   font-size: 2rem;
   color: white;
   width: 45rem;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 0rem;
-}
-
-form {
-  /* padding-top: 1rem; */
 }
 
 .email {
@@ -79,9 +71,9 @@ form {
 }
 
 .model {
-  height: 75%;
+  height: 95%;
   position: absolute;
-  top: 3.95rem;
+  top: 5rem;
   right: 10rem;
 }
 
@@ -99,11 +91,6 @@ form {
   font-size: 2rem;
   text-align: center;  
   margin-bottom: 0;
-}
-
-.footer-content {
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
 }
 
 .footer-icon {
@@ -130,99 +117,6 @@ form {
   text-align: center;  
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  body {
-    width: min-content;
-    font-size: 5px;
-  }
-
-  .landing-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .headline {
-    font-size: 6rem;
-    margin-bottom: 1rem;
-    line-height: 1;
-  }
-  
-  .sub-head {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .sub-text {
-    font-size: 2rem;
-    width: 25rem;
-  }
-  
-  .email {
-    width: 25rem;
-  }
-
-  .model {
-    width: 13rem;
-    left: 16rem;
-    top: 12rem;
-  }
-
-  .footer-icon {
-    height: 15%;
-  }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 1360px) and (max-width: 1439px) {
-  body {
-    font-size: 5px;
-  } 
-  .logo {
-    height: 6rem;
-    width: 8rem;
-  }
-  .headline {
-    font-size: 4rem;
-  }
-  .sub-head {
-    font-size: 3rem;
-  }
-  .sub-text {
-    font-size: 2rem;
-    width: 50rem;
-  }
-  form {
-    padding-top: 1rem;
-  }
-  .email {
-    margin-top: 0;
-    width: 35rem;
-    height: 3rem;
-    font-size: 1.5rem;
-  }
-  .submit-button {
-    margin-top: 1rem;
-    height: 3rem;
-    font-size: 1.5rem;
-  }
-  .model {
-    height: 27rem;
-    top: 5.5rem;
-    width: 28rem;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {} */
-
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1450px) {
   body {
@@ -230,8 +124,9 @@ form {
   }
 
   .logo {
-    height: 12rem;
-    width: 12rem;
+    height: 25rem;
+    width: 35rem;
+    margin-left: 14rem;
   }
   
   .landing-content {
@@ -276,9 +171,112 @@ form {
   }
   
   .model {
-    height: 75%;
+    height: 95%;
     position: absolute;
-    top: 4.8rem;
+    top: 8rem;
     right: 17rem;
   }
 }
+
+/* Macbook Air */
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+  body {
+    font-size: 5px;
+  } 
+  .logo {
+    height: 20rem;
+    width: 30rem;
+  }
+  .landing-content{
+    padding-top: 2rem;
+  }
+  .headline {
+    font-size: 4rem;
+  }
+  .sub-head {
+    font-size: 3rem;
+  }
+  .sub-text {
+    font-size: 2rem;
+    width: 50rem;
+  }
+  form {
+    padding-top: 1rem;
+  }
+  .email {
+    margin-top: 0;
+    width: 35rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  .submit-button {
+    margin-top: 1rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+  .model {
+    height: 40rem;
+    top: 8rem;
+    width: 28rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    width: min-content;
+    font-size: 5px;
+  }
+
+  .logo {
+    height: 15rem;
+    width: 20rem;
+    margin-left: 5rem;
+  }
+
+  .landing-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .headline {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+  
+  .sub-head {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sub-text {
+    font-size: 2rem;
+    width: 15rem;
+  }
+  
+  .email {
+    width: 24rem;
+    font-size: 1.5rem;
+  }
+
+  .model {
+    width: 13rem;
+    left: 16rem;
+    margin-top: 2vh;
+    vertical-align: middle;
+  }
+
+  .footer-icon {
+    height: 15%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {} */
