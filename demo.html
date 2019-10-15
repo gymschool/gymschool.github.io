@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="main.css">
+
+  <title>Gym School</title>
+  <link rel="shortcut icon" type="image/svg" href="assets/logo.svg" />
+</head>
+
+<body>
+  <!-- Landing start -->
+  <div class="logo-container">
+    <img class="logo" src="assets/logo.svg" alt="logo" />
+  </div>
+
+  <div class="landing-content">
+    <!-- <p class="headline">Get. <span class="bold-text">Shit.</span> Done.</p> -->
+    <p class="sub-head"><span id="days" class="bold-text"></span> days.</p>
+    <p class="sub-text">Coming soon for Gym Owners ONLY<br>Get notified for our launch!</p>
+
+    <form action="https://formspree.io/create@speer.io" method="POST">
+      <input class="email" type="email" name="email" placeholder="youremail@gmail.com"><br>
+      <input type="submit" class="submit-button">
+      <!-- <i class="fa fa-arrow-right icon"></i> -->
+      </input>
+    </form>
+
+    <div class="d-flex justify-content-end">
+      <img class="model" src="assets/model.svg" alt="model">
+    </div>
+  </div>
+  <!-- Landing end -->
+
+
+  <!-- Footer start -->
+  <!-- <div class="site-footer">
+    <p class="footer-heading">Get. <span class="bold-text">Shit.</span> Done.</p>
+    <div class="d-flex flex-row justify-content-around footer-content">
+      <div class="">
+        <p class="footer-sub-heading">Got questions?</p>
+        <span><img class="footer-icon" src="assets/at.svg" alt="email" /></span>
+        <a href="mailto:info@gym-school.com?Subject=Hello!" target="_top"><span class="footer-sub-text"
+            mailto>info@gym-school.com</span></a>
+      </div>
+
+      <div class="">
+        <p class="footer-sub-heading">Connect with us!</p>
+        <span><img class="footer-icon" src="assets/insta.svg" alt="instagram" /></span>
+        <span><img class="footer-icon" src="assets/fb.svg" alt="facebook" /></span>
+      </div>
+
+      <div class="">
+        <p class="footer-sub-heading">Site Map</p>
+        <p class="footer-sub-text">Home</p>
+        <p class="footer-sub-text">Courses</p>
+        <p class="footer-sub-text">About Us</p>
+      </div>
+    </div>
+    <p class="footer-copywrite">2019 © All Rights Reserved | Fight School Incorporated</p>
+  </div> -->
+  <!-- Footer end -->
+
+
+  <!-- Optional JavaScript -->
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 26, 2019 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Display the result in the element with id="demo"
+      document.getElementById("days").innerHTML = days + "d " + hours + "h "
+        + minutes + "m ";
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("days").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  </script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
